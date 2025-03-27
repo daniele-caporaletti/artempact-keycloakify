@@ -26,7 +26,7 @@ body.kcBodyClass {
     vertical-align: middle;
 }
 
-/* Nascondo il tasto per cambiare lingua */
-#kc-current-locale-link {
+/* Nascondi il cambio di lingua */
+#kc-locale {
     display: none !important;
 }
