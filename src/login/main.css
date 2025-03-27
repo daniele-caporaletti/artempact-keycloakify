@@ -1,0 +1,32 @@
+/* Cambio lo sfondo del body */
+body.kcBodyClass {
+    background: url(./assets/backgroundArtEmpact.jpg) no-repeat center center fixed;
+}
+
+/* Centro il contenuto all'interno del wrapper */
+#kc-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Metto il logo di Artempact sopra il form */
+#kc-header-wrapper span[data-kc-msg="loginTitleHtml"] {
+    font-size: 0; /* Nasconde la scritta "myrealm" */
+}
+
+#kc-header-wrapper span[data-kc-msg="loginTitleHtml"]::before {
+    content: "";
+    display: inline-block;
+    width: 205px;
+    height: 60px;
+    background-image: url('./assets/logoArtEmpact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+/* Nascondo il tasto per cambiare lingua */
+#kc-current-locale-link {
+    display: none !important;
+}
