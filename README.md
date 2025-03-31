@@ -1,3 +1,12 @@
+- git clone https://github.com/daniele-caporaletti/artempact-keycloakify.git
+- yarn install
+- npm run storybook
+
+
+
+
+
+
 <p align="center">
     <i>🚀 <a href="https://keycloakify.dev">Keycloakify</a> v11 starter 🚀</i>
     <br/>
